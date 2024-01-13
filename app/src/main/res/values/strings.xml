@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">projectUASMobile</string>
+    <string name="hello_blank_fragment">HelloBlankFragment</string>
+    <string name="welcome">Selamat Datang di</string>
+    <string name="welcome1">Sumatera Career Center</string>
+    <string name="welcome2">Politeknik Caltex Riau</string>
+    <string name="visi_misi">VISI DAN MISI</string>
+    <string name="visi">Menjadi institusi karir yang mewadahi para alumni yang berbasis IT dalam menyajikan infomasi karir, pengembangan diri, dan pelayanan rekruitrment.</string>
+    <string name="misi">
+         Membangun organisasi yang mewadahi alumni dan menjadi tempat untuk menjalin komunikasi dan silaturahmi bagi alumni
+            \n\n
+         Menjadi career center pertama yang mengedepankan inovasi, professionalisme, saling menghargai, dan religious
+            \n\n
+         Memberikan informasi rekrutment dan karir yang terpercaya, serta program pengembangan diri kepada mahasiswa dan alumni
+            \n\n
+         Memberikan layanan rekrutment yang efektif dan solutif kepada perusahaan
+            \n\n
+         Memberikan dukungan pada kampus dalam pengembangan karir mahasiswa dan alumni, serta kerjasama dengan dunia industri
+    </string>
+
+    <string name="profil">
+        Sumatera Career Center adalah Career Center yang berpusat di Politeknik Caltex Riau.
+        Tujuan kami adalah menjadi pusat informasi karir yang lengkap dan terpercaya bagi para pencari kerja maupun perusahaan.
+        Melayani perusahaan (employer) yang mencari SDM dan alumni (jobseeker) dari universitas manapun dan jurusan apapun adalah komitmen kami.
+        Sebagai lembaga yang baru terbentuk, kami berupaya untuk terus aktif dan selalu berusaha melakukan inovasi untuk dapat melayani perusahaan dan para pencari kerja sebaik mungkin.
+        SCC berbasis pada layanan online. Beragam fitur dan layanan online kami sajikan untuk memberikan kemudahan bagi para jobseeker dan employer.
+        Selain layanan online, kami juga menyediakan layanan offline untuk menambah wawasan para jobseeker serta menyediakan sarana tatap muka bagi perusahaan dan jobseeker seperti Job Fair dan Career Workshop.
+        Kami berharap lembaga ini mampu memberikan manfaat yang besar bagi para jobseeker maupun employer.
+    </string>
+</resources>

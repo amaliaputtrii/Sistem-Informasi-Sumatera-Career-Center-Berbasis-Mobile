@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityStatusSeleksiPelamar">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_kembali_pel_id"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_kembali_profil_pel"
+            android:text="Kembali"
+            android:fontFamily="@font/poppins_regular"
+            android:textAlignment="inherit"
+            android:textColor="@color/orange"
+            android:textSize="13dp"
+            tools:ignore="MissingConstraints"> </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Status Seleksi"
+            android:fontFamily="@font/poppins_semibold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_beranda"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/low1_gambar_ss"
+                    android:layout_width="120dp"
+                    android:layout_height="156dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/low2"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="166dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_ss"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Sekolah Tinggi Ilmu Farmasi Riau"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:id="@+id/textView_ss1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Web Programmer"
+                        android:textColor="@color/black"
+                        android:textSize="12dp"
+                        android:textStyle="bold"></TextView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView_ss2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Status : "
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textColor="@color/black"
+                            android:textSize="12dp"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:id="@+id/btn_ss_tolak"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/merah"
+                            android:gravity="center"
+                            android:text="Ditolak"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="10dp"
+                            android:textStyle="bold"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:menu="@menu/bottom_nav_pel"
+        app:itemIconTint="@color/orange"
+        app:itemTextColor="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/abu"/>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

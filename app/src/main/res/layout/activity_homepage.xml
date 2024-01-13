@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/logoscc"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logosccpcr"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/welcome"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAlignment="center"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/welcome1"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/welcome2"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_sigin_pel_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="btn_sigin_pel"
+        android:text="Masuk sebagai pelamar"
+        android:fontFamily="@font/poppins_semibold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:cornerRadius="7dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_sigin_per_id"
+        android:onClick="btn_sigin_per"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Masuk sebagai perusahaan"
+        android:fontFamily="@font/poppins_semibold"
+        android:backgroundTint="@color/hijau"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:cornerRadius="7dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/white"
+    tools:context=".DataProfilePerusahaanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnKembaliLihatDataDiriPerusahaan"
+            android:clickable="true"
+            android:text="Kembali"
+            android:fontFamily="@font/poppins_regular"
+            android:textAlignment="inherit"
+            android:textColor="@color/orange"
+            android:textSize="13dp"
+            tools:ignore="MissingConstraints"> </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Data Perusahaan"
+            android:fontFamily="@font/poppins_semibold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="341dp"
+                    android:layout_height="31dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:text="Logo Perusahaan"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+                <ImageView
+                    android:id="@+id/LogoPerData"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/hijau"
+                    android:src="@drawable/logopertamina"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Nama Perusahaan"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewNamaPerusahaanData"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_beranda"
+                    android:gravity="start|center_vertical"
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Email Perusahaan"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewEmailPerusahaanData"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_beranda"
+                    android:gravity="start|center_vertical"
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Password Email Perusahaan"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewPassEmailPerusahaanData"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_beranda"
+                    android:gravity="start|center_vertical"
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"></TextView>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

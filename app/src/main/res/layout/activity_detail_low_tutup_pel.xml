@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivityDetailLowTutupPel">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_kembali_pel_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_kembali"
+            android:text="Kembali"
+            android:fontFamily="@font/poppins_regular"
+            android:textAlignment="inherit"
+            android:textColor="@color/orange"
+            android:textSize="13dp"
+            tools:ignore="MissingConstraints"> </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Detail Lowongan Pekerjaan"
+            android:fontFamily="@font/poppins_semibold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_beranda"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView_tutup"
+                        android:layout_width="297dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center"
+                        android:text="Supervisor Maintenance"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+
+                    <TextView
+                        android:id="@+id/textView1_tutup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PT. Sumatera Dinamika Utama (SDU)"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView2_tutup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jumat, 06 Oktober 2023"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView3_tutup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lowongan Dibuka Mulai:"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/orange"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView4_tutup"
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:text="06 Oktober 2023 - 10 Oktober 2023"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/orange"
+                        android:background="@drawable/border_orange"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView5_tutup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Pendaftar"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/orange"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView6_tutup"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:text="37 Pelamar"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/orange"
+                        android:background="@drawable/border_orange"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView7_tutup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Panggilan"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/merah"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView8_tutup"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:text="0 Pelamar"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/merah"
+                        android:background="@drawable/border_merah"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/low1_gambar_tutup"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/low1">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textView9_tutup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PT. Sumatera Dinamika Utama dengan kantor operasional di Pekanbaru, merupakan perusahaan yang bergerak di bidang Manajemen Services Hutan Tanaman Industri"
+                        android:textColor="@color/black"
+
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView10_tutup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Persyaratan :"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView11_tutup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1.Supervice a team of maintenance and provide guidence, support, dan perfomance feedback"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView12_tutup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="2. IPK minimum 3.2"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView13_tutup"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="3. Ensure compliance with safety regulations"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="15dp"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/btn_low_tutup"
+                        android:onClick="btn_low_tutup_click"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:text="Lowongan Tutup"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:background="@color/merah"
+                        android:layout_marginTop="20dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

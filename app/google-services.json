@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "850486261303",
+    "firebase_url": "https://projectmobilee-default-rtdb.firebaseio.com",
+    "project_id": "projectmobilee",
+    "storage_bucket": "projectmobilee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850486261303:android:481f3a05fddb0f6f2bb1b2",
+        "android_client_info": {
+          "package_name": "com.example.projectmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtAJ0m3D5N06UJw3GBXhdYF1E5b_K_kxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850486261303:android:18c6344ecdca980e2bb1b2",
+        "android_client_info": {
+          "package_name": "com.example.projectuasmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtAJ0m3D5N06UJw3GBXhdYF1E5b_K_kxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnKembaliAddLow"
+            android:clickable="true"
+            android:text="Kembali"
+            android:textAlignment="inherit"
+            android:textColor="@color/orange"
+            android:textSize="13dp"> </TextView>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="UPLOAD CV"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:id="@+id/uploadCVpel"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/text_border"
+            android:src="@drawable/ic_upload" />
+
+        <Button
+            android:id="@+id/pilihFileCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Upload CV"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/orange">
+        </Button>
+
+        <Button
+            android:id="@+id/kirimFileCV"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Kirim CV"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

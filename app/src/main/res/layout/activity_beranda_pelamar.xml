@@ -1,0 +1,91 @@
+<!-- res/layout/fragment_home.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivityBerandaPelamar"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Top controls -->
+        <RelativeLayout
+            android:id="@+id/topControlsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:elevation="999dp"
+            android:gravity="bottom"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search"
+                android:layout_width="370dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/border_beranda"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:imeOptions="actionSearch"
+                android:paddingStart="12dp"
+                android:paddingEnd="10dp"
+                android:textColorHint="@color/abu"
+                android:textSize="14sp"
+                app:iconifiedByDefault="false"
+                app:queryHint="Cari lowongan pekerjaan"
+                app:searchHintIcon="@null" />
+
+
+            <!-- Your existing top controls views -->
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!-- RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewPel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/topControlsLayout"
+            android:layout_above="@id/bottomNavigationViewPel"
+            android:layout_marginTop="5dp"
+            android:padding="16dp"
+            android:clipToPadding="false" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationViewPel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:itemTextColor="@color/orange"
+            app:itemIconTint="@color/orange"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav_pel">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/abu"/>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

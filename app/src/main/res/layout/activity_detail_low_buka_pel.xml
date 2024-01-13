@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivityDetailLowBukaPel">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_kembali_pel_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_kembali_beranda_pel"
+            android:clickable="true"
+            android:text="Kembali"
+            android:fontFamily="@font/poppins_regular"
+            android:textAlignment="inherit"
+            android:textColor="@color/orange"
+            android:textSize="13dp"
+            tools:ignore="MissingConstraints"> </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Detail Lowongan Pekerjaan"
+            android:fontFamily="@font/poppins_semibold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_beranda"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="303dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center"
+                        android:text="Web Programmer"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"></TextView>
+
+
+                    <TextView
+                        android:id="@+id/textView1_buka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sekolah Tinggi Ilmu Farmasi Riau"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="20dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView2_buka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jumat, 06 Oktober 2023"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView3_buka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lowongan Dibuka Mulai:"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/orange"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView4_buka"
+                        android:layout_width="210dp"
+                        android:layout_height="30dp"
+                        android:text="13 November - 17 November"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/orange"
+                        android:background="@drawable/border_orange"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView5_buka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Pendaftar"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/orange"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView6_buka"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:text="20 Pelamar"
+                        android:textColor="@color/orange"
+                        android:fontFamily="@font/poppins_regular"
+                        android:background="@drawable/border_orange"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView7_buka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Panggilan"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/merah"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView8_buka"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:text="0 Pelamar"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/merah"
+                        android:background="@drawable/border_merah"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/low1_gambar_buka"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/low2">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/textView9_buka"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="STIFAR Riau merupakan perguruan tinggi bidang Farmasi yang didirikan pada tahun 2002. Beralamat di jalan Kamboja, Kec. Tampan"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView10_buka"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Persyaratan :"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:layout_marginTop="15dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView11_buka"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1. Menguasai Codeigniter"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView12_buka"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="2. IPK minimum 3"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginTop="5dp">
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/btn_low_buka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:backgroundTint="@color/hijau"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:gravity="center"
+                        android:onClick="btn_lamar_kerja"
+                        android:text="Lamar Pekerjaan"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
